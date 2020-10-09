@@ -1,4 +1,4 @@
-version: '3'
+version: '3.5'
 
 volumes:
   local_postgres_data: {}
@@ -9,6 +9,8 @@ services:
     build:
       context: .
       dockerfile: ./compose/local/django/Dockerfile
+    stdin_open: true
+    tty: true
     image: invoice_management_system_local_django
     container_name: django
     depends_on:
