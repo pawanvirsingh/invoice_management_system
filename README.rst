@@ -8,7 +8,13 @@ date, and each line item mentioned in the invoice.
 
 
 For Running this project :
+=========================
 
-docker-compose -f local.yml build 
+docker-compose -f local.yml build , 
 docker-compose -f local.yml up
+
+POSTMAN COLLECTION :
+====================
+
+https://www.getpostman.com/collections/b118898306a0b1a1c9bd
 
