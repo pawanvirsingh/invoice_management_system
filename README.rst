@@ -7,3 +7,8 @@ At the minimum, this includes the vendor/seller, the purchaser/buyer, the invoic
 date, and each line item mentioned in the invoice.
 
 
+For Running this project :
+
+docker-compose -f local.yml build 
+docker-compose -f local.yml up
+
